@@ -1,0 +1,1114 @@
+/* SIGN IN */
+.imgci
+{
+	margin:0;
+	position: relative;
+    padding: 10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+html {
+		background-color: #c6e5f3;
+}
+
+.login {
+	background-color: #c6e5f3;
+	color: #0b4d85;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Bree Serif';
+	position: absolute;
+	top: 40%;
+	margin-left: 65%;
+}
+	
+#logo {
+position: absolute;
+top: 25%;
+margin-left: 20%;
+}
+
+#submit{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	font-size: 20px;
+	padding: 4px 10px;
+	position: absolute;
+	font-family: 'Bree Serif';
+	top: 90%;
+	margin-left: 45%;
+}
+
+.other_login ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+
+.other_login li {
+	float: left;
+}
+
+.other_login li a {
+	display: block;
+	color: #0b4d85;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: 'Bree Serif';
+}
+
+.other_login a:visited {
+  color: #0b4d85;
+}
+
+.other_login a:hover {
+  color: #62a6df;
+}
+
+.other_login:link {
+  color: #0b4d85;
+}
+
+/* END OF SIGN IN */
+
+/* REGISTER */
+
+.register {
+	background-color: #c6e5f3;
+	color: #0b4d85;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Bree Serif';
+	-webkit-text-size-adjust: 100%; 
+	position: absolute;
+	top: 13%;
+	margin-left: 55%;
+}
+
+#register{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	font-size: 20px;
+	padding: 4px 10px;
+	position: absolute;
+	font-family: 'Bree Serif';
+	right: 0;
+}
+
+
+/* END OF REGISTER */
+
+/* FORGOT PASSWORD  */
+
+.forgot_pwd {
+	background-color: #c6e5f3;
+	color: #0b4d85;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Bree Serif';
+	position: absolute;
+	top: 40%;
+	margin-left: 65%;
+}
+
+#reset{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	font-size: 20px;
+	padding: 4px 10px;
+	position: absolute;
+	font-family: 'Bree Serif';
+	right: 0;
+}
+
+
+/* END OF FORGOT PASSWORD */
+
+
+
+
+
+
+
+
+/* BASE */
+
+body { 
+	margin: 0; 
+	-webkit-text-size-adjust: 100%; 
+    font-family: 'Bree Serif';
+	}
+
+.page{ 
+	overflow: hidden; 
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	}
+
+.leftcolumn { 
+	width: 250px;
+	overflow: hidden; 
+	position: fixed; 
+	top: 0; 
+	bottom: 0; 
+	height:100%;
+	}
+	
+.rightcolumn {
+	left: 250px; 
+	right: 0; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	bottom: 0;  
+	border-left: 3px solid #0b4d85;
+
+}
+
+.companyname {
+	font-size:18pt;
+	font-weight:bold;
+	overflow: hidden; 
+	position: absolute; 	
+	left: 0; 
+	right: 0; 
+	height:60px;
+	color: #0b4d85; 
+	background: #c6e5f3; 
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.header{
+	overflow: hidden; 
+	position: absolute; 	
+	left: 0; 
+	right: 0px; 
+	top:0;
+	height:60px;
+	bottom:0px;
+	color: #0b4d85; 
+	background: #c6e5f3; 
+	font-size: 11pt;
+}
+
+
+.header a:visited {
+  color: #0b4d85;
+}
+
+.header a:hover {
+  color: #62a6df;
+}
+
+
+div .language{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    text-decoration: underline;
+    font-size: 13pt;
+    color: #0b4d85;
+}
+
+.language a:visited {
+  color: #0b4d85;
+}
+div .signout{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    text-decoration: underline;
+    font-size: 13pt;
+    color: #0b4d85;
+}
+
+.navigationbar
+{
+	background: #c6e5f3;
+	overflow: hidden; 
+	position: fixed; 	
+	left: 0; 
+	top:60px;
+	bottom:25px;
+	width:250px;
+	overflow-y: auto; 
+}
+.mainmenu {
+	padding:0;
+}
+
+.mainmenu img{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+	width: 160px;
+	border-radius:50%;
+	}
+
+.mainmenu li { 
+	position : relative;
+	list-style-type: none; 
+	background: #c6e5f3; 
+	padding: 15px; 
+	cursor: pointer; 
+	text-align: left;
+    top: 230px;
+	}
+.mainmenu li a {
+	display: block;
+    width: 250px;
+    text-decoration: none;
+	color: #0b4d85;
+}
+.mainmenu li a .fas{
+    width: 25px;
+}
+
+.mainmenu li:hover{
+    background-color: #2981c9;
+}
+.mainmenu li:hover a{
+    color: #fff;
+}
+
+.mainmenu ul {
+	padding:0;
+}
+
+.mainmenu ul li a{
+    display: block;
+    width: 250px;
+	text-align:left;
+    text-decoration: none;
+    color: #0b4d85;
+}
+.mainmenu ul li a .fas{
+     width: 25px;
+}
+
+.mainmenu ul li:hover{
+    background-color: #2981c9;
+}
+.mainmenu ul li:hover a{
+    color: #fff;
+}
+
+.copyright {
+	height: 25px; 
+	overflow: hidden; 
+	position: absolute; 
+	margin : 0;
+	left: 0; 
+	right: 0; 
+	bottom:0; 
+    color: #0b4d85;
+	font-size : 8pt;
+	padding-top:15px;
+    background:#c6e5f3;
+	text-align: center;
+	color: #0b4d85;
+
+
+}
+.footer {
+	height: 35px; 
+	overflow: hidden; 
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	border-top:3px solid #0b4d85;
+	padding-bottom:15px;
+    color: #0b4d85;
+    background:#c6e5f3;
+	text-align: center;
+
+}
+.footer p{
+    display: inline-block;
+    padding: 0px 30px;
+    color: #0b4d85;
+    text-decoration: underline;
+}
+
+.footer a:visited {
+  color: #0b4d85;
+}
+
+.footer a:hover {
+  color: #62a6df;
+}
+
+.pane {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100% }
+	
+.pane { 
+	display: none; }
+
+.main {
+	background: #c6e5f3;
+	color: #0b4d85; 
+	overflow: hidden; 
+	position: absolute; 	
+	left: 0; 
+	right: 0; 
+	top:60px;
+	bottom:50px;
+	padding :20px 60px;
+	border-top: 3px solid #0b4d85;
+	overflow-y: auto; 
+	-webkit-overflow-scrolling: touch; 
+}
+.title {
+	color: #0b4d85; 
+}
+
+.subtitle {
+	color: #0b4d85; 
+
+}
+.content {
+	color: #0b4d85; 
+}
+
+table {
+	color: #0b4d85; 
+	width:100%;
+}
+
+
+/* END OF BASE */
+
+/* HOME */
+ 
+.homeimage {
+  max-width: 100%;
+  height: auto;
+}
+
+	
+.callpolice{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width:250px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+}
+
+
+.calladmin{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width:250px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+}
+
+.doorlock {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width:115px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	
+}
+
+.alarm {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width:115px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+}
+
+.security{
+	padding : 20px 20px;
+	text-align:center;
+	
+}
+
+/* END OF HOME */
+
+
+/* YOUR ACCOUNT  */
+
+.changeinformation{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 40px;
+	right:120px;
+	position:absolute;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+
+}
+
+/* END OF YOUR ACCOUNT  */
+
+/* MODIFY YOUR ACCOUNT */
+
+.title img{
+	border-radius:50%;
+}
+
+
+#userinfo{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+
+}
+
+.upload_img{
+	border-radius: 15px;
+	border: none;
+	background-color: #62a6df;
+	color: white;
+	padding: 4px 30px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+
+}
+
+.changepwd{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 40px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+
+}
+
+/* END OF MODIFY YOUR ACCOUNT */
+
+/* CHANGE PASSWORD */
+
+#newpassword{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 40px;
+	right:120px;
+	bottom:60px;
+	position:absolute;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+}
+
+/* END OF CHANGE PASSWORD */
+
+/* SELECT USER ACCOUNT */
+
+.modifyaccount {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 16pt;
+	font-family: 'Bree Serif';
+	position:relative;
+}
+	
+/* END OF SELECT USER ACCOUNT */
+
+/* USER ACCOUNT */
+
+.deleteaccount {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+}
+
+.modifytheaccount {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+}
+/* END OF USER ACCOUNT */
+
+
+/* MODIFY USER ACCOUNT */
+
+#modifyuser{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+
+#change_mode{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+
+/* END OF MODIFY USER ACCOUNT */
+
+/* NEW USER  */
+
+#newuser{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+
+/* END OF NEW USER */
+
+
+/* LIVING ROOM */
+
+div.master{
+	padding: 20px;
+	margin: 20px;
+}
+
+table{
+	width : 100%;
+  padding: 1px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;    
+}
+
+table,th,tr,td{
+	text-align: center;
+}
+
+div.sec{
+	display: inline;
+	float: left;
+}
+
+a.cl{
+	opacity: 1.0;
+
+}
+
+a.cl:hover{
+	opacity: 0.3;
+
+}
+
+a.cl:active{
+	opacity: 1.0;
+
+}
+
+a.cl:visited{
+	opacity: 1.0;
+}
+
+fieldset{
+	border-radius: 60px;
+	background-color: #073763;
+}
+
+div.wg{
+	display: block;
+	float: left;
+	margin-bottom: 50px;
+	border: 0.5px solid grey;
+	border-radius: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.1);
+	float: left;
+	width: 220px;
+	height: 220px;
+	transition: transform .2s;
+
+}
+
+.tb img{
+	height:50px;
+	width: 50px;
+}
+
+div.wg:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: rgba(10, 10, 30, 0.9);
+	transform: scale(1.5);
+}
+
+a.clcl:hover{
+	opacity: 0.5;
+}
+
+a.clcl:active{
+	opacity: 1.0;
+}
+
+a.clcl:visited{
+	opacity: 0.5;
+}
+
+/* Workaround: in landscape mode, IEMobile makes bottom toolbar overlap the page, so shorten the page by 75px to compensate */
+.iemobile .page { bottom: -6px; }
+@media screen and (orientation:landscape) { .iemobile .page { bottom: 75px; } }
+
+
+
+/* END OF LIVING ROOM */
+
+/* SETTINGS  */
+
+
+.modifyaroom, .modifyanaccount, .createaroom, .createanaccount {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 230px;
+	font-size : 16pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+/* END OF SETTING  */
+
+/* MODIFY ROOM  */
+.modifyroom{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 16pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+.table_modify_room {
+	width:100%;
+	border-spacing: 30px;
+	text-align: center;    
+}
+
+/* END OF MODIFY ROOM */
+
+
+/* CREATE ROOM  */
+
+.form 
+{	width:100%;
+	display:flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.leftcontent {
+	overflow: hidden; 
+	float: left;
+	width: 500px;
+	margin:0;
+	color:#0b4d85;
+}
+.rightcontent { 
+	width: 500px;
+	overflow: hidden; 
+	height:100%;
+	margin:0;
+	color:#0b4d85;
+
+	}
+
+select {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #62a6df;
+	color:white;
+  	font-family: 'Bree Serif';
+
+}
+
+#newroom{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+
+/* Clear floats after the columns */
+.form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .leftcontent {
+    width: 100%;
+  }
+  .rightcontent{
+    width: 100%;
+  } 
+}
+
+/* END OF CREATE ROOM */
+
+/* ROOM DEVICES  */
+
+.deletedevice {
+	border-radius: 15px;
+	border: none;
+	background-color: #62a6df;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+.table_devices, .table_changes {
+	width:100%;
+	border-spacing: 30px;
+	text-align: center;    
+
+}
+.bottombuttons {
+	display:blocks;
+}
+
+
+.addadevice {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.deleteroom {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.savechange {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 20px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#deletedevice {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+	
+/* END OF ROOM DEVICES  */
+
+
+
+/* ADD DEVICES */
+
+#newdevice{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px 90px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	left:260px;
+}
+
+/* END OF ADD DEVICES */
+
+/* CONFIRMATION LOG OUT  */
+
+.message
+{
+	border-style: solid;
+	border-color: #0b4d85;
+	border-width: 3px;
+	background-color:#0b4d85;
+	margin:0;
+	width: 50%;
+	border-radius: 10px;
+	position: relative;
+    padding: 10px;
+    font-size: 13pt;
+    color: white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.quit {
+	border-radius: 15px;
+	border: none;
+	background-color: #62a6df;
+	color: white;
+	padding: 4px;
+	width:115px;
+	position:relative;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* END OF CONFIRMATION LOG OUT */
+
+
+/* ADDITIONAL INFO */
+
+#additional_info
+{
+	border-style: solid;
+	border-color: 0b4d85;
+	border-width: 3px;
+	margin:0;
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+    padding: 10px;
+    font-size: 13pt;
+    color: #0b4d85;
+}
+.contact_us {
+	text-align:center;
+}
+.onlinechat{
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width : 200px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* END OF ADDITIONAL INFO  */
+
+/* RESET PASSWORD (LINK) */
+
+#resetpassword {
+	border-radius: 15px;
+	border: none;
+	background-color: #0b4d85;
+	color: white;
+	padding: 4px;
+	width:170px;
+	font-size : 13pt;
+	font-family: 'Bree Serif';
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2981c9;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2981c9;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#container{
+	margin: 2em auto 0;
+  	width: 500px;
+  	padding: 2em;
+  	background: white;
+  	-webkit-box-shadow: 0 1px 10px #D9D9D9;
+  	-moz-box-shadow: 0 1px 10px #D9D9D9;
+  	-ms-box-shadow: 0 1px 10px #D9D9D9;
+  	-o-box-shadow: 0 1px 10px #D9D9D9;
+  	box-shadow: 0 1px 10px #D9D9D9;
+}
+#video{
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+/* END OF RESET PASSWORD (LINK) */
+
+
+
+/* Workaround: in landscape mode, IEMobile makes bottom toolbar overlap the page, so shorten the page by 75px to compensate */
+.iemobile .page { bottom: -6px; }
+@media screen and (orientation:landscape) { .iemobile .page { bottom: 75px; } }
